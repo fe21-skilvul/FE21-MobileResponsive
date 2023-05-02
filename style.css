@@ -115,8 +115,9 @@ strong {
 }
 
 .main-parent {
+  background-color: #343434;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-image: url(./log.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,43 +127,112 @@ strong {
   align-items: center;
 }
 .main-parent .form-wrap {
-  width: 450px;
-  background: rgb(255 255 255 / 75%);
+  margin-top: 150px;
+  width: 550px;
+  border: 1px solid black;
+  background: white;
   border-radius: 10px;
   padding: 35px 40px;
   backdrop-filter: blur(5px);
 }
-.form-wrap form h1 {
-  font-family: "Acme", sans-serif;
-  font-variant: small-caps;
-  font-size: 45px;
+
+.main-parent .form-wrap-login {
+  margin-top: 5px;
+  width: 550px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 10px;
+  padding: 35px 40px;
+  backdrop-filter: blur(5px);
+}
+
+.form-wrap-login form h5 {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(184, 184, 184);
   text-align: center;
   margin-bottom: 15px;
 }
-.form-wrap form h1 span {
-  font-variant: small-caps;
-  color: #f57224;
+.form-wrap-login form h1 {
+  color: #313130;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 20px;
 }
-.form-wrap form .single-input input {
+.form-wrap-login form .single-input input {
   width: 100%;
   padding: 14px 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3521);
+  border: 1px solid rgb(63, 62, 62);
   outline: none;
   background: transparent;
   margin-bottom: 10px;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  border-radius: 8px;
 }
-.form-wrap form .submit-button {
+.form-wrap-login form .submit-button {
   text-align: center;
+  padding: 16px 2px;
 }
-.form-wrap form .submit-button button.button {
-  padding: 13px 30px;
-  background-color: #f57224;
+.form-wrap-login form .submit-button button.button {
+  padding: 13px 210px;
+  border-radius: 8px;
+  background-color: #343434;
   outline: none;
   border: none;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-wrap-login form .account-have {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.form-wrap-login form .account-have a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.form-wrap form h5 {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.form-wrap form h1 {
+  color: #313130;
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 30px;
+}
+.form-wrap form .single-input input {
+  width: 100%;
+  padding: 14px 10px;
+  border: 1px solid rgb(63, 62, 62);
+  outline: none;
+  background: transparent;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.form-wrap form .submit-button {
+  text-align: center;
+  /* margin: 10px 16px; */
+  padding: 16px 1px;
+}
+.form-wrap form .submit-button button.button {
+  padding: 13px 210px;
+  border-radius: 8px;
+
+  background-color: #343434;
+  outline: none;
+  border: none;
+  color: #fff;
   font-size: 16px;
   cursor: pointer;
 }
