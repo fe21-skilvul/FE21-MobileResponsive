@@ -21,7 +21,7 @@ submit_button.onclick = (e) => {
       } else {
         Swal.fire("Good job!", "Register successful!", "success");
         setTimeout(() => {
-          location.href = "LoginBox.html";
+          location.href = "login.html";
         }, 5000);
       }
     } else {
@@ -49,7 +49,7 @@ login.onclick = (e) => {
     if (emailAddress == Email && passWord == Password) {
       Swal.fire("Good job!", "login successful!", "success");
       setTimeout(() => {
-        location.href = "homepage.html";
+        location.href = "../homepage/homepage.html";
       }, 1000);
     } else {
       Swal.fire("Opps..!", "Something is wrong!", "error");

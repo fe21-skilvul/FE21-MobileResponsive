@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- css -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- custome css  -->
+    <link rel="stylesheet" href="../style.css" />
+    <title>Registration</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- Bootstrap css-->
     <link
@@ -25,11 +27,9 @@
 
     <!-- Logo Title bar -->
     <link rel="icon" href="assets/logo/logonavnew.png" type="image/x-icon" />
-    <title>Login</title>
   </head>
   <body>
 
-    <!-- Navbar -->
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100"
     >
@@ -78,38 +78,49 @@
       </div>
     </nav>
 
-    <!-- login -->
 
     <div class="main-parent">
-      <div class="form-wrap-login">
+      <div class="form-wrap">
         <form action="">
-          <h1><span>Masuk</span></h1>
+          <h1>Daftar Akun Remedial</h1>
+        
+
+          <div class="single-input">
+            <input id="fname" type="text" placeholder="First name" required />
+          </div>
+          <div class="single-input">
+            <input id="lname" type="text" placeholder="Last name" required />
+          </div>
           <div class="single-input">
             <input
-              id="emailAddress"
+              id="email"
               type="email"
               placeholder="Email Address"
               required
             />
           </div>
           <div class="single-input">
+            <input id="pass" type="password" placeholder="Password" required />
+          </div>
+          <div class="single-input">
             <input
-              id="passWord"
+              id="cpass"
               type="password"
-              placeholder="Password"
+              placeholder="Confirm Password"
               required
             />
           </div>
           <div class="submit-button">
-            <button class="button login ">Login</button>
+            <button class="button">Submit</button>
           </div>
           <div class="account-have">
-            <p>Belum punya akun? <a href="register.html">Ayo daftar</a></p>
+            <a href="">Forget Password</a>
+            <a href="login.html">Have an account please Login</a>
           </div>
         </form>
       </div>
     </div>
-    <script
+     <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
           crossorigin="anonymous"
@@ -117,7 +128,7 @@
         <script>
           feather.replace()
         </script>
-    <script src="./sweetalert.js"></script>
-    <script src="./app.js"></script>
+    <script src="../sweetalert.js"></script>
+    <script src="../app.js"></script>
   </body>
 </html>
