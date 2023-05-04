@@ -2,3 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* container-blogs */
+.container-blogs {
+  padding-top: 0;
+}
+
+.search-live {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
