@@ -27,9 +27,7 @@ fetch(url, {
                       
                       <div class="clearfix"></div>
                       <a href="${
-                        window.location.hostname +
-                        "detail-blogs.html?id=" +
-                        value[i].id
+                        "../detail-blogs/index.html?id=" + value[i].id
                       }" class="btn btn-success w-100">Lihat Selengkapnya</a>
                   </div>
               </div>
