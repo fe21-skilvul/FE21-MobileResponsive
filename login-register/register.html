@@ -30,68 +30,72 @@
   </head>
   <body>
 
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="../assets/logo/logonavnew.png"
-            alt=""
-            width="30"
-            class="d-inline-block align-text-top me-2"
-          />
-          Remedial</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item mx-2">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Belajar</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Program</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Tentang</a>
-            </li>
-          </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <nav style="background-color: #313130;"
+        class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-default w-100"
+      >
+        <div class="container">
+          <a class="navbar-brand h-100 text-dark" href="#">
+            <img
+              src="../assets/logo/logonav.png"
+              alt=""
+              width="20"
+              class="d-inline-block align-text-top me-2"
+            />
+            Remedial</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                <a style="color: white
+                ;" class="nav-link  text-dark font-weight-normal" aria-current="page" href="../Landingpage/remedial/index.html">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a style="color: white;" class="nav-link text-dark font-weight-normal" href="../program/program.html">Program</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a style="color: white;" class="nav-link text-dark font-weight-normal" href="../blogs/blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a style="color: white;" class="nav-link text-dark font-weight-normal" href="../about/about.html">Tentang</a>
+              </li>
+            </ul>
 
-          <div>
-            <a href="register.html" class="btn-link"> <button class="btn-primary">Daftar</button></a>
-            <a href="login.html"> <button class="btn-secondary">Masuk</button>
-           </div></a>
+            <div>
+              <a href="../../login-register/register.html"> <button class="btn btn-light">Daftar</button></a>
+              <a href="../../login-register/login.html"> <button class="btn btn-success">Masuk</button>
+             </div></a>
+          </div>
+  
+            
         </div>
+      </nav>
       </div>
-    </nav>
+    </div>
 
 
-    <div class="main-parent">
-      <div class="form-wrap">
+    <div class="main-parent2">
+      <div class="form-wrap2">
         <form action="">
-          <h1>Daftar Akun Remedial</h1>
+          <h1 class="text-center pt-5">Daftar Akun <span class="text-success">Remedial</span></h1>
         
 
-          <div class="single-input">
-            <input id="fname" type="text" placeholder="First name" required />
+          <div class="single-input2">
+            <input id="fname" type="text" placeholder="Full name" required />
           </div>
-          <div class="single-input">
-            <input id="lname" type="text" placeholder="Last name" required />
-          </div>
-          <div class="single-input">
+          <div class="single-input2">
             <input
               id="email"
               type="email"
@@ -99,10 +103,10 @@
               required
             />
           </div>
-          <div class="single-input">
+          <div class="single-input2">
             <input id="pass" type="password" placeholder="Password" required />
           </div>
-          <div class="single-input">
+          <div class="single-input2">
             <input
               id="cpass"
               type="password"
@@ -110,12 +114,12 @@
               required
             />
           </div>
-          <div class="submit-button">
+          
+          <div class="submit-button2">
             <button class="button">Submit</button>
           </div>
-          <div class="account-have">
-            <a href="">Forget Password</a>
-            <a href="login.html">Have an account please Login</a>
+         <div class="text-center py-4">
+            Sudah memiliki akun? <span><a class="text-success" href="login.html">Login</a></span>
           </div>
         </form>
       </div>

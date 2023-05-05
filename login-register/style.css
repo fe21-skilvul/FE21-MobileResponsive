@@ -117,7 +117,7 @@ strong {
 .main-parent {
   background-color: white;
   width: 100%;
-  height: 120vh;
+  height: 90vh;
   background-image: url(./log.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,12 +127,11 @@ strong {
   align-items: center;
 }
 .main-parent .form-wrap {
-  margin-top: 150px;
+  margin-top: 10px;
   width: 550px;
   border: 1px solid black;
   background: white;
   border-radius: 10px;
-  padding: 35px 40px;
   backdrop-filter: blur(5px);
 }
 
@@ -142,7 +141,7 @@ strong {
   border: 1px solid black;
   background: white;
   border-radius: 10px;
-  padding: 35px 40px;
+  padding: 20px 40px;
   backdrop-filter: blur(5px);
 }
 
@@ -151,7 +150,7 @@ strong {
   font-weight: 300;
   color: rgb(184, 184, 184);
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 100px;
 }
 .form-wrap-login form h1 {
   color: #313130;
@@ -176,7 +175,7 @@ strong {
 .form-wrap-login form .submit-button button.button {
   padding: 13px 210px;
   border-radius: 8px;
-  background-color: #343434;
+  background-color: #198754;
   outline: none;
   border: none;
   color: #fff;
@@ -229,7 +228,7 @@ strong {
   padding: 13px 210px;
   border-radius: 8px;
 
-  background-color: #343434;
+  background-color: #198754;
   outline: none;
   border: none;
   color: #fff;
@@ -247,6 +246,146 @@ strong {
   color: rgb(34, 34, 34);
   text-decoration: none;
 }
+
+/* start */
+.main-parent2 {
+  background-color: white;
+  width: 100%;
+  height: 90vh;
+  background-image: url(./log.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-parent2 .form-wrap2 {
+  margin-top: 10px;
+  width: 550px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.main-parent2 .form-wrap-login2 {
+  margin-top: 5px;
+  width: 150px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  backdrop-filter: blur(5px);
+}
+
+.form-wrap-login2 form h5 {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  margin-bottom: 100px;
+}
+.single-input2 {
+  width: 90%;
+  margin: auto;
+}
+.form-wrap-login2 form h1 {
+  color: #313130;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.form-wrap-login2 form .single-input2 input {
+  width: 60%;
+  padding: 14px 10px;
+  border: 1px solid rgb(63, 62, 62);
+  outline: none;
+  background: transparent;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.form-wrap-login2 form .submit-button2 {
+  text-align: center;
+  padding: 16px 2px;
+}
+.form-wrap-login2 form .submit-button2 button.button {
+  padding: 13px 210px;
+  border-radius: 8px;
+  background-color: #198754;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-wrap-login2 form .account-have2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.form-wrap-login2 form .account-have2 a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.form-wrap2 form h5 {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.form-wrap2 form h1 {
+  color: #313130;
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 30px;
+}
+.form-wrap2 form .single-input2 input {
+  width: 100%;
+  padding: 14px 10px;
+  border: 1px solid rgb(63, 62, 62);
+  outline: none;
+  background: transparent;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.form-wrap2 form .submit-button2 {
+  text-align: center;
+  /* margin: 10px 16px; */
+  padding: 16px 1px;
+}
+.form-wrap2 form .submit-button2 button.button {
+  padding: 13px 210px;
+  border-radius: 8px;
+
+  background-color: #198754;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-wrap2 form .account-have2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.form-wrap2 form .account-have2 a {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+
+/* end */
 
 .wrapper {
   background: #ececec;
