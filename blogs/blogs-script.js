@@ -18,13 +18,15 @@ fetch(url, {
                   <div class="card-body">
                       <h5 class="card-title">${value[i].title}</h5>
                       <p class="card-text">
-                          <span class="badge bg-success">Lorem, ipsum dolor.</span>
+                          <span class="badge bg-success">${
+                            value[i].author
+                          }</span>
                       </p>
                       <p class="card-text text-truncate" style="max-width: 850px">${
                         value[i].artikel
                       }</p>
                       <p class="card-text float-end">
-                          <small class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing.</small>
+                          <small class="text-muted">${value[i].date}</small>
                       </p>
                       
                       <div class="clearfix"></div>

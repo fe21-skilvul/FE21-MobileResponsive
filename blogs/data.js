@@ -15,6 +15,8 @@ const body = [
 
 Dalam penggambaran patung figuratif, pematung biasanya menambahkan ciri khas estetika dari seni pop-surealis sehingga karya-karyanya lebih dramatis dan memiliki nilai seni yang tinggi. Hal ini menjadi ciri khas dari patung figuratif dibandingkan patung non-figuratif.`,
     title: "1. Mengenal Pengertian Patung Figuratif, Ciri-ciri, dan Contoh",
+    date: "10 Maret 2023",
+    author: "Seni Rupa",
   },
   {
     image:
@@ -33,6 +35,8 @@ Istilah nirmana sendiri lahir dari gabungan antara dua kata, yaitu ‘nir’ yan
 
 Artinya, ‘tanpa makna’ merujuk pada hasil akhir dari karya seni yang tak boleh membentuk sesuatu yang jelas, seperti simbol, angka, logo, binatang, atau benda. Tetapi, nirmana bisa dirasakan, seperti mengetahui apakah karya tersebut kasar, lembut, hingga dinamis.`,
     title: "2. Nirmana Adalah Ilmu Tata Rupa, Calon Anak DKV Wajib Tahu!",
+    date: "22 April 2023",
+    author: "Seni Rupa",
   },
   {
     image:
@@ -54,6 +58,8 @@ Artinya, ‘tanpa makna’ merujuk pada hasil akhir dari karya seni yang tak bol
     “Kami percaya karya-karya yang ditampilkan, menjadi salah satu parameter artistik perkembangan seniman yang paling mutakhir di Kota Bandung,” ungkap Angga.`,
     title:
       "3. Grey Art Gallery, Tempat Baru di Jalan Braga yang Wajib Dikunjungi",
+    date: "01 Februari 2023",
+    author: "Seni Lukis",
   },
   {
     image:
@@ -68,6 +74,8 @@ Artinya, ‘tanpa makna’ merujuk pada hasil akhir dari karya seni yang tak bol
     
     Hasrat atau imajinasi tersebut tidak selalu berupa energi atau hal yang negatif. Hal ini dapat dicontohkan secara sederhana ketika mimpi masa kecil seseorang terus memudar karena menghadapi realita dan logika seiring beranjak dewasa. Oleh karena itu, surealisme dapat menyalurkan imajinasi tersebut dan merepresentasikan secara nyata. `,
     title: "4. Mengenal Aliran Surealisme: Pengertian",
+    date: "22 Januari 2023",
+    author: "Seni Lukis",
   },
   {
     image:
@@ -82,6 +90,8 @@ Artinya, ‘tanpa makna’ merujuk pada hasil akhir dari karya seni yang tak bol
 
 `,
     title: "5. Estetika: Pengertian",
+    date: "02 Januari 2023",
+    author: "Seni Rupa",
   },
 ];
 

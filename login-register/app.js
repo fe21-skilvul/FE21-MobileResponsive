@@ -49,7 +49,7 @@ login.onclick = (e) => {
     if (emailAddress == Email && passWord == Password) {
       Swal.fire("Good job!", "login berhasil!", "success");
       setTimeout(() => {
-        location.href = "../homepage/homepage.html";
+        location.href = "../Landingpage/remedial/index.html";
       }, 1000);
     } else {
       Swal.fire(

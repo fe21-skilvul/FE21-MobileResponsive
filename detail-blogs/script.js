@@ -14,7 +14,13 @@ fetch(url, {
     ).innerHTML += `<div class="container"><div class="row">
     <div class="card my-5" style="width: 80rem;">
   <div class="card-body">
+    
     <h5 class="card-title text-center my-5">${value.title}</h5>
+
+    <a class="btn btn-success mb-2 disabled">${value.author}</a>
+  
+    <h5>${value.date}</h5>
+   
     <img src="${value.image}" class="img-fluid h-50 w-100 mb-5" alt="...">
     <p class="card-text">${value.artikel}</p>
   </div>
