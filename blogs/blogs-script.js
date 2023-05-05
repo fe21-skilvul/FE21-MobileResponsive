@@ -1,4 +1,4 @@
-const url = "https://64527065a2860c9ed40c6783.mockapi.io/comments";
+const url = "https://64527065a2860c9ed40c6783.mockapi.io/comments/";
 
 fetch(url, {
   method: "GET",
