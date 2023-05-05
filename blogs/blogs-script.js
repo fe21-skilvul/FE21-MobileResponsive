@@ -5,14 +5,14 @@ fetch(url, {
 })
   .then((response) => response.json())
   .then((value) => {
-    for (let i = 5; i < value.length; i++) {
+    for (let i = 0; i < value.length; i++) {
       document.getElementById(
         "blog-list"
       ).innerHTML += `<div class="container mt-5 container-blogs">
       <div class="card">
           <div class="row no-gutters">
               <div class="col-md-4">
-                  <img class="card-img-top" src="${value[i].avatar}" alt="">
+                  <img class="card-img-top" src="${value[i].image}" alt="">
               </div>
               <div class="col-md-8">
                   <div class="card-body">
@@ -20,7 +20,9 @@ fetch(url, {
                       <p class="card-text">
                           <span class="badge bg-success">Lorem, ipsum dolor.</span>
                       </p>
-                      <p class="card-text">${value[i].description}</p>
+                      <p class="card-text text-truncate" style="max-width: 850px">${
+                        value[i].artikel
+                      }</p>
                       <p class="card-text float-end">
                           <small class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing.</small>
                       </p>

@@ -12,10 +12,10 @@ fetch(url, {
     document.getElementById(
       "blog"
     ).innerHTML += `<div class="card" style="width: 18rem;">
-  <img src="${value.avatar}" class="card-img-top" alt="...">
+  <img src="${value.image}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${value.title}</h5>
-    <p class="card-text">${value.description}</p>
+    <p class="card-text">${value.artikel}</p>
   </div>
 </div>`;
     console.log(value);
