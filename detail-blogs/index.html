@@ -4,6 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Detail Blogs</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="../assets/logo/logonav.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,9 +26,109 @@
   </head>
 
   <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav style="background-color: #313130;"
+        class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-default w-100"
+      >
+        <div class="container">
+          <a class="navbar-brand h-100 text-dark" href="#">
+            <img
+              src="../assets/logo/logonav.png"
+              alt=""
+              width="20"
+              class="d-inline-block align-text-top me-2"
+            />
+            Remedial</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                <a style="color: white
+                ;" class="nav-link active text-dark font-weight-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a style="color: white;" class="nav-link text-dark font-weight-bold" href="#">Belajar</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a style="color: white;" class="nav-link text-dark font-weight-bold" href="#">Program</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a style="color: white;" class="nav-link text-dark font-weight-bold" href="#">Tentang</a>
+              </li>
+            </ul>
+  
+            <div>
+              <a href="../login-register/register.html"> <button class="btn btn-white font-weight-bold">Daftar</button></a>
+              <a href="../login-register/login.html"> <button class="btn btn-success">Masuk</button>
+             </div></a>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+
     <div id="blog"></div>
     <script src="script.js"></script>
 
+    <div class="container-fluid text-light footer mt-5 py-1 wow fadeIn" data-wow-delay="0.1s" style="background-color: #0c0d0c;">
+      <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-lg-4 col-md-6">
+                  <h4 class="text-white mb-4">Remedial</h4>
+                  <p>Remedial merupakan kegiatan yang akan Serrum lakukan selama 1 tahun di 2019. Dengan metode saling silang informasi yang menghasilkan pengetahuan dan pendekatan seni dan literasi. Program ini gratis.
+                  </p>
+                  <div class="d-flex pt-2">
+                      <a class="btn btn-square text-white rounded-circle me-2" href=""><i
+                              class="fab fa-discord"></i></a>
+                      <a class="btn btn-square text-white rounded-circle me-2" href=""><i
+                              class="fab fa-instagram"></i></a>
+                      <a class="btn btn-square text-white rounded-circle me-2" href=""><i
+                              class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-square text-white rounded-circle me-2" href=""><i
+                              class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                  <h4 class="text-white mb-4">Remedial</h4>
+                  <span>Remedial Offline</span>
+                  <br><br>
+                  <span>Remedial Online</span>
+                  <br><br>
+                  <span>Workshop</span>
+  
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-4">Program</h4>
+                  <span>Hello Siswa</span>
+                  <br><br>
+                  <span>Pena Siswa</span>
+                  <br><br>
+                  <span>Konsultasi Seni Rupa</span>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-4">About</h4>
+                  <span>Community</span>
+                  <br><br>
+                  <span>Designers</span>
+                  <br><br>
+                  <span>Support</span>
+              </div>
+  
+          </div>
+      </div>
     <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,

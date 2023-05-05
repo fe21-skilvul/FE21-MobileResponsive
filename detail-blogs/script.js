@@ -9,14 +9,18 @@ fetch(url, {
 })
   .then((response) => response.json())
   .then((value) => {
-    document.getElementById(
-      "blog"
-    ).innerHTML += `<div class="card" style="width: 18rem;">
-  <img src="${value.image}" class="card-img-top" alt="...">
+    document.getElementById("blog").innerHTML += `
+   
+   
+    <div class="container"><div class="row"><div class="card my-5" style="width: 80rem;">
   <div class="card-body">
-    <h5 class="card-title">${value.title}</h5>
+  <h5 class="card-title text-center my-5">${value.title}</h5>
+  <img src="${value.image}" class="img-fluid h-50 w-100 mb-5" alt="...">
+   
     <p class="card-text">${value.artikel}</p>
   </div>
+</div>
+</div>
 </div>`;
     console.log(value);
   });
