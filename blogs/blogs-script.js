@@ -40,6 +40,7 @@ fetch(url, {
     }
     console.log(value);
   });
+
 //   <div class="card" style="width: 18rem;">
 //   <img src="${value[i].image}" class="card-img-top" alt="...">
 //   <div class="card-body">
