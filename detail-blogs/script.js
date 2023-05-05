@@ -12,10 +12,10 @@ fetch(url, {
     document.getElementById(
       "blog"
     ).innerHTML += `<div class="container"><div class="row">
-    <div class="card my-5" style="width: 80rem;">
-  <div class="card-body">
+    <div class="card my-5" style="width: 70rem;">
+  <div class="card-body mb-5">
     
-    <h5 class="card-title text-center my-5">${value.title}</h5>
+    <h5 class="card-title text-center mt-3">${value.title}</h5>
 
     <a class="btn btn-success mb-2 disabled">${value.author}</a>
   
