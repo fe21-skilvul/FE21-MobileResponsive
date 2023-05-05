@@ -13,19 +13,19 @@ submit_button.onclick = (e) => {
   localStorage.setItem("Password", pass);
   localStorage.setItem("Cpassword", cpass);
   if (fname == "" && lname == "" && email == "" && pass == "" && cpass == "") {
-    Swal.fire("Opps..!", "input field has no value!", "error");
+    Swal.fire("Opps..!", "input field harus diisi!", "error");
   } else {
     if (pass.length >= 6 && pass.length <= 20) {
       if (pass !== cpass) {
-        Swal.fire("Opps..!", "Password not matching!", "error");
+        Swal.fire("Opps..!", "Password tidak sama!", "error");
       } else {
-        Swal.fire("Good job!", "Register successful!", "success");
+        Swal.fire("Good job!", "Register berhasil!", "success");
         setTimeout(() => {
           location.href = "login.html";
         }, 5000);
       }
     } else {
-      Swal.fire("Opps..!", "Input mim six digit password!", "error");
+      Swal.fire("Opps..!", "Input password mimimal enam digit !", "error");
     }
   }
 };
@@ -44,15 +44,19 @@ login.onclick = (e) => {
   const Password = localStorage.getItem("Password");
 
   if (emailAddress == "" && passWord == "") {
-    Swal.fire("Opps..!", "input field has no value!", "error");
+    Swal.fire("Opps..!", "input field harus diisi!", "error");
   } else {
     if (emailAddress == Email && passWord == Password) {
-      Swal.fire("Good job!", "login successful!", "success");
+      Swal.fire("Good job!", "login berhasil!", "success");
       setTimeout(() => {
         location.href = "../homepage/homepage.html";
       }, 1000);
     } else {
-      Swal.fire("Opps..!", "Something is wrong!", "error");
+      Swal.fire(
+        "Opps..!",
+        "Email atau Password Salah. Silahkan coba lagi!",
+        "error"
+      );
     }
   }
 };
