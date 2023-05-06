@@ -114,6 +114,12 @@ strong {
   font-weight: 500;
 }
 
+.container-login {
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 100px auto;
+}
+
 .main-parent {
   background-color: white;
   width: 100%;
